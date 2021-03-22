@@ -44,6 +44,7 @@ Network Architecture
 ![image](https://user-images.githubusercontent.com/61686244/111970595-c8eadb00-8b3e-11eb-8b01-a40542c0fdce.png)
 
   * Loss Function
+
 ![image](https://user-images.githubusercontent.com/61686244/111970690-e324b900-8b3e-11eb-855d-af7caaaf7ace.png)
   
 Information extraction and enhancement block(IEEB)
