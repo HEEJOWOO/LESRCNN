@@ -13,7 +13,7 @@ Abstract
   * 위와 같은 단점을 갖고 있는 SR model들은 실시간, 저전력 컴퓨터에 적용하는데 비효율적임
   * 이러한 문제를 해결하기 위해 lightweight enhanced SRCNN(LESRCNN)을 제안하고 LESRCNN은 information extraction and enhancement block(IEEB), reconstruction block(RB), information refinement block(IRB)로 구성되어 있음
   * IEEB는 계층적으로 저주파수 특징들의 추출하고 딥 레이어에서 얕은 레이어의 메모리 능력을 증가시키기 위해 단계별 특징들을 모음
-  * RB는 전역 및 지역 특징들을 융ㅇ합시킴으로써 저주파수 특징들을 고주파수 특징들로 변환 시키는 역할을 하고 IEEB와 long term dependency problem을 해결하는데 있어 보완적임
+  * RB는 전역 및 지역 특징들을 융합시킴으로써 저주파수 특징들을 고주파수 특징들로 변환 시키는 역할을 하고 IEEB와 long term dependency problem을 해결하는데 있어 보완적임
   * IRB는 RB로부터 얻어진 coarse 고주파수 특징들을 학습하여 더 정확한 SR 특징들을 만듦
   
   
