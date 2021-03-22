@@ -137,7 +137,7 @@ Network Analysis-Information refinement block
 Conclusions
 -----------
   * lightweight enhanced super resolution CNN(LESRCNN)제안
-  * IEEB는 계층적 저주파수 특징들을 추출하고 모아 long-term dependency problem을 해결
+  * IEEB는 계층적으로 저주파수 특징들을 추출하고 모아 long-term dependency problem을 해결
   * IEEB는 heterogeneous architecture를 사용하여 파라미터의 수와 SR 모델을 학습하는데 복잡성을 줄였음
   * RB는 전역 및 지역 특징들을 융합함으로써 저주파수 특징을 고주파수 특징으로 전환 시키며 이는 깊은 레이어에서 얕은 레이어의 메모리 능력을 향상시킬 수 있음
   * IRB는 RB로부터 얻은 coarse 고주파수 특징을 이용하여 더 정확한 SR특징을 만들어냄
