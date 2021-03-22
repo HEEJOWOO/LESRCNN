@@ -92,7 +92,7 @@ Experiments
   
 Network Analysis-Information extraction and enhancement block
 -------------------------------------------------------------
-  * 실시간 또는 저전력 컴퓨팅에서 성능과 계산비용을 중요한 요소
+  * 실시간 또는 저전력 컴퓨팅에서 성능과 계산비용은 중요한 요소
   * 구성된 IEEB의 design은 낮은 계산 비용과 적은 메모리 소비 높은 성능에 대해서 break rule한 design임 
   * 1x1 Conv는 training cost를 줄이는데 적합하지만, 위치를 선정하는데 어려움이 따름 
   * heterogeneous architecture(HN)를 사용하여 문제 해결, heterogeneous convolution은 P=2로 IEEB에 사용되고 3x3 Conv와 1x1 Conv가 연결되어 있음,8개의 3x3 Conv, 8개의 1x1 Conv, 1개의 standard Conv 3x3   
