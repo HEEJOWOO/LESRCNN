@@ -38,7 +38,7 @@ Network Architecture
 --------------------
   * LESRCNN은 전체적으로 23개의 층을 가지고 있고, 3개의 블록으로 구성(IEEB, RB, IRB)
   * IEEB는 17개의 층으로 구성, 저 주파수특징들을 추출하고 향상시키는 역할, 적은 계산량으로 추출된 저주파수 특징들을 refine함
-  * RB는 1개의 층으로 구성, 저주파수 특징들 고주팟후 특징으로 변환하는 역할
+  * RB는 1개의 층으로 구성, 저주파수 특징들 고주파수 특징으로 변환하는 역할
   * IRB는 5개층으로 구성, RB로부터 얻어진 coarse한 고주파수 특징들을 refine하여 더 정확한 SR특징을 얻어냄
   
 ![image](https://user-images.githubusercontent.com/61686244/111970595-c8eadb00-8b3e-11eb-8b01-a40542c0fdce.png)
